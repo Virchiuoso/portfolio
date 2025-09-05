@@ -1,0 +1,122 @@
+html {
+    background-color: #033030;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma;
+    font-size: 87%;
+}
+
+header {
+    padding-top: 40px 0px 20px 0px;
+    color: #033030;
+    text-align: center;
+    background-color: #e6eded;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 180%;
+}
+
+header p {
+    margin: 0
+}
+
+.container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e6eded;
+    padding: 40px 40px;
+    box-sizing: border-box;
+}
+
+/* Site Navigation*/
+.site-nav {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.site-nav ul {
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    width: 100%
+}
+
+.site-nav li {
+    float: left;
+    margin-left: 58px;
+    margin-top: 10px;
+    list-style: none;
+}
+
+.site-nav a {
+    display: block;
+    text-decoration: none;
+    color: #033030;
+    padding: 10px 12px 3px 12px;
+    border-radius: 5px;
+}
+
+.site-nav a:hover {
+    background-color: #ccd7d4;
+    padding: 10px 12px 3px 12px
+}
+
+/* END site Navigation*/
+
+.content-area {
+    border-top: 3px solid #d8e0d3;
+    border-bottom: 3px solid #d8e0d3;
+    box-sizing: border-box;
+}
+
+.article-body {
+    width: 60%;
+    box-sizing: border-box;
+    float: left;
+    color: #033030;
+
+}
+
+.sidebar {
+    width: 34%;
+    float: right;
+    box-sizing: border-box;
+    position: relative;
+    top: 40px;
+    right: 30px
+}
+
+aside img {
+    width: 230px;
+    float: right;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+
+footer {
+    text-align: center;
+    font-size: 60%;
+    color: #999;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.group {
+    zoom: 1;
+}
